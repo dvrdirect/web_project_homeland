@@ -1,0 +1,13 @@
+@import url(/pages/header.css);
+@import url(/pages/lead.css);
+@import url(/pages/intro.css);
+@import url(/pages/footer.css);
+
+.page {
+  background-color: #2e2e2e;
+}
+@media (min-width: 544px) and (max-width: 1024px) {
+  .page {
+    overflow: hidden;
+  }
+}

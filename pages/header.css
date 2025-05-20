@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo {
+  height: 32px;
+  width: 32px;
+}
+.caption {
+  font-family: "inter";
+  font-weight: 700;
+  color: #ffffff;
+}
