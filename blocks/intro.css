@@ -19,7 +19,7 @@
   position: relative;
   color: #ffffff;
 }
-.intro__text_right {
+.intro__text-right {
   font-family: "Inter";
   font-weight: 400;
   font-size: 24px;
@@ -44,7 +44,7 @@
   .intro__text {
     left: 148px;
   }
-  .intro__text_right {
+  .intro__text-right {
     left: 148px;
   }
   .intro__text_small {
@@ -60,7 +60,7 @@
   .intro__text {
     font-size: 24px;
   }
-  .intro__text_right {
+  .intro__text-right {
     display: flex;
     margin: 0;
   }
@@ -78,7 +78,7 @@
     font-size: 24px;
     line-height: 30px;
   }
-  .intro__text_right {
+  .intro__text-right {
     font-size: 24px;
     left: 30px;
   }
