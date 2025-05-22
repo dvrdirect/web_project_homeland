@@ -1,6 +1,6 @@
 body {
   background-color: #2e2e2e;
-}
+} /*
 .container {
   display: flex;
   flex-direction: column;
@@ -12,7 +12,7 @@ body {
   color: #ffffff;
   font-family: "inter";
   font-weight: 800;
-}
+}*/
 .header {
   display: flex;
   flex-direction: column;
