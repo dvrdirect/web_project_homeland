@@ -1,15 +1,4 @@
 @import url(/vendor/normalize.css);
+@import url(/blocks/main.css);
 @import url(/blocks/header.css);
-@import url(/blocks/lead.css);
-@import url(/blocks/intro.css);
 @import url(/blocks/footer.css);
-
-/*.page {
-  background-color: #2e2e2e;
-}
-@media (min-width: 544px) and (max-width: 1024px) {
-  .page {
-    overflow: hidden;
-  }
-}
-*/

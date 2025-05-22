@@ -1,11 +1,24 @@
 .footer {
+  color: white;
+  font-family: "inter";
   display: flex;
   justify-content: center;
 }
-.footer__copyright {
-  font-family: "Inter";
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 163%;
-  color: #ffffff;
+@media (min-width: 1280px) {
+  .footer {
+    padding-top: 100px;
+    margin: 100px 0 30px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1279px) {
+  .footer {
+    padding-top: 200px;
+    margin: 130px 0 30px;
+  }
+}
+@media (max-width: 320px) {
+  .footer {
+    padding-top: 250px;
+    margin: 280px 0 30px;
+  }
 }

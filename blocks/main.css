@@ -1,0 +1,54 @@
+.main {
+  display: flex;
+  flex-direction: column;
+}
+.main__title {
+  font-family: Inter;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+  color: white;
+}
+.main__text {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  color: white;
+}
+.main__text-name {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  color: white;
+  text-align: right;
+}
+.main__text-caption {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 163%;
+  letter-spacing: 0%;
+  color: white;
+}
+@media (min-width: 1280px) {
+  .main {
+    max-width: 830px;
+    max-height: 607px;
+    padding-left: 135px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1279px) {
+  .main {
+    max-width: 720px;
+    max-height: 573px;
+    margin: 0 10px;
+  }
+}
+@media (max-width: 320px) {
+  .main {
+    max-height: 1033px;
+    min-width: 288px;
+  }
+}

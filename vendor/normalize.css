@@ -1,29 +1,9 @@
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
-.page{
-  min-width: 1100px;
-  max-width: 1600px;
-  font-family: "Inter", Arial;
-  font-size: 16px;
-  line-height: 20px;
-  margin: auto;
-  background-color: #2e2e2e;
 
-}
-@media (min-width: 544px) and (max-width: 1024px) {
-  .page {
-    overflow: hidden;
-  }
-}
+/* Documento
+   ========================================================================== */
 
-@media (min-width: 1600px){
-
-  .page{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-}
-/*
+/**
  * 1. Corrige la altura de línea en todos los navegadores.
  * 2. Impide que se ajuste el tamaño de la fuente tras los cambios de orientación en iOS.
  */
@@ -42,7 +22,6 @@ html {
 
 body {
   margin: 0;
-
 }
 
 /**
