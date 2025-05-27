@@ -1,7 +1,7 @@
 body {
   background-color: #2e2e2e;
 }
-/*
+
 .container {
   display: flex;
   flex-direction: column;
@@ -16,7 +16,7 @@ body {
   font-family: "inter";
   font-weight: 800;
 }
-  */
+
 .header {
   display: flex;
   flex-direction: column;
@@ -42,6 +42,7 @@ body {
   width: 100vw;
   object-fit: cover;
 }
+
 @media (min-width: 1280px) {
   .logo {
     height: 32px;
