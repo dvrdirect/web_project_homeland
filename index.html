@@ -52,73 +52,81 @@
           </p>
         </section>
         <section class="photo-grid">
-          <img class="photo" src="/images/photo-grid1.png" alt="image-one" />
-          <img class="photo" src="/images/photo-grid2.png" alt="image-two" />
-          <img class="photo" src="/images/photo-grid3.png" alt="image-three" />
-          <img class="photo" src="/images/photo-grid4.png" alt="image-four" />
-          <img class="photo" src="/images/photo-grid5.png" alt="image-five" />
-          <img class="photo" src="/images/photo-grid6.png" alt="image-six" />
-          <img class="photo" src="/images/photo-grid7.png" alt="image-seven" />
-          <img class="photo" src="/images/photo-grid8.png" alt="image-eight" />
+          <div class="photo-grid__container">
+            <img class="photo" src="/images/photo-grid1.png" alt="image-one" />
+            <img class="photo" src="/images/photo-grid2.png" alt="image-two" />
+            <img
+              class="photo"
+              src="/images/photo-grid3.png"
+              alt="image-three"
+            />
+            <img class="photo" src="/images/photo-grid4.png" alt="image-four" />
+            <img class="photo" src="/images/photo-grid5.png" alt="image-five" />
+            <img class="photo" src="/images/photo-grid6.png" alt="image-six" />
+            <img
+              class="photo"
+              src="/images/photo-grid7.png"
+              alt="image-seven"
+            />
+            <img
+              class="photo"
+              src="/images/photo-grid8.png"
+              alt="image-eight"
+            />
+          </div>
         </section>
-        <section class="places">
-          <div class="gales">
-            <h3 class="places__title">
-              Cricieth,<br />
-              Gales
-            </h3>
+        <div class="places">
+          <section class="country">
+            <h3 class="places__title">Cricieth, Gales</h3>
             <div class="places__website">
-              <h3 class="places__website-heading">Artistas</h3>
-              <p class="places__website-artist">Steffan Warren, editor jefe</p>
+              <p class="places__website-heading">Artistas</p>
               <p class="places__website-artist">
-                Kseniya Glagoleva, gerente de proyectos
+                Steffan Warren, editor jefe<br />Kseniya Glagoleva, gerente de
+                proyectos
               </p>
             </div>
             <img
               class="places__image"
-              src="/images/gales-image.png"
+              src="./images/gales-image.png"
               alt="gales-image"
             />
             <p class="places__paragraph">
               Las ruinas medievales del castillo de Cricieth dominan la ciudad
               desde una roca que extiende sobre el mar. Se cree que fue
               construido por Llewelyn el Grande en el S. XIII. 800 años después,
-              la autodenominada Perla de Gales en las costas de Snowdonia, se ha
-              convertido en un popular destino turístico durante los meses de
-              verano.
+              la autodenominada *Perla de Gales en las costas de Snowdonia*, se
+              ha convertido en un popular destino turístico durante los meses de
+              verano.<br /><br />A pocos pasos de camino al castillo, puedes
+              disfrutar de los mejores helados del mundo en Cadwalader's, cuyo
+              ingrediente secreto se rumorea que son algas marinas de la
+              localidad. Otra cosa por la que es famosa Cricieth es por haber
+              ganado el premio *Gales en flor* durante cinco años seguidos por
+              sus espectaculares muestras florales alrededor de la ciudad.
+              También vio nacer a David Lloyd George, el único galés que ha sido
+              Primer Ministro del Reino Unido.
             </p>
-            <p class="places__paragraph-2">
-              A pocos pasos de camino al castillo, puedes disfrutar de los
-              mejores helados del mundo en Cadwalader's, cuyo ingrediente
-              secreto se rumorea que son algas marinas de la localidad. Otra
-              cosa por la que es famosa Cricieth es por haber ganado el premio
-              *Gales en flor* durante cinco años seguidos por sus espectaculares
-              muestras florales alrededor de la ciudad. También vio nacer a
-              David Lloyd George, el único galés que ha sido Primer Ministro del
-              Reino Unido.
-            </p>
+
             <button class="places__button">
               <a
                 class="places__nft-link"
                 href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
-                >Compra esta obra como NFT</a
+              >
+                Compra esta obra como NFT</a
               >
             </button>
-          </div>
-          <div class="eeuu">
-            <h3 class="places__title">
-              Berea, EE.<br />
-              UU.
-            </h3>
+          </section>
+          <section class="country">
+            <h3 class="places__title">Berea, EE.UU</h3>
+
             <div class="places__website">
-              <h3 class="places__website-heading">Artista</h3>
+              <p class="places__website-heading">Artistas</p>
               <p class="places__website-artist">
                 Travis Turner, autor y editor
               </p>
             </div>
             <img
               class="places__image"
-              src="/images/eeuu-image.png"
+              src="./images/eeuu-image.png"
               alt="eeuu-image"
             />
             <p class="places__paragraph">
@@ -129,37 +137,34 @@
               tiendas de joyas, velas y artículos de madera artesanales;
               galerías, talleres de vidrio y más. La ciudad celebra un festival
               anual que rinde tributo al "spoonbread", un platillo local hecho
-              de pan de maíz y que se sirve con una cuchara de madera.
-            </p>
-            <p class="places__paragraph-2">
-              Aunque, probablemente es mejor conocida por su universidad. El
-              Berea College fue fundado en 1855 y fue la primera universidad
-              sureña integrada racialmente, así como la primera en ser
-              coeducacional. Algo que en cierta manera la hace única, es que no
-              cobra colegiatura: cada estudiante recibe una beca del 100%.
+              de pan de maíz y que se sirve con una cuchara de madera.<br /><br />Aunque,
+              probablemente es mejor conocida por su universidad. El Berea
+              College fue fundado en 1855 y fue la primera universidad sureña
+              integrada racialmente, así como la primera en ser coeducacional.
+              Algo que en cierta manera la hace única, es que no cobra
+              colegiatura: cada estudiante recibe una beca del 100%.
             </p>
             <button class="places__button">
               <a
                 class="places__nft-link"
                 href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
-                >Compra esta obra como NFT</a
+              >
+                Compra esta obra como NFT</a
               >
             </button>
-          </div>
-          <div class="burundi">
-            <h3 class="places__title">
-              Muramvya, <br />
-              Burundi
-            </h3>
+          </section>
+
+          <section class="country">
+            <h3 class="places__title">Murumvya, Burindi</h3>
             <div class="places__website">
-              <h3 class="places__website-heading">Artista</h3>
+              <p class="places__website-heading">Artistas</p>
               <p class="places__website-artist">
                 Grevisse Kenguruka, editor técnico
               </p>
             </div>
             <img
               class="places__image"
-              src="/images/burundi-image.png"
+              src="./images/burundi-image.png"
               alt="burundi-image"
             />
             <p class="places__paragraph">
@@ -167,45 +172,40 @@
               del reino, Muramvya fue su capital; y en 2017, gracias a su
               paisaje cultural y natural, se añadió a la Lista provisional de
               patrimonio mundial de la UNESCO. Se encuentra ubicada en el centro
-              de Burundi, entre las capitales política y económica del país.
-            </p>
-            <p class="places__paragraph-2">
-              Su clima es más bien frío durante la noche, pero durante el día,
+              de Burundi, entre las capitales política y económica del país.<br /><br />Su
+              clima es más bien frío durante la noche, pero durante el día,
               podrías pensar que estás en el paraíso. A sus 2,665 metros (8,743
               ft) sobre el nivel del mar, el Monte Teza es uno de los lugares
               más fríos de la provincia. Pero es justo esa brisa fresca la que
               da pie a una de las más grandes plantaciones de té y café del
-              país, y que representa la mayoría de las exportaciones de Burundi.
-            </p>
-            <p class="places__paragraph-3">
-              El Parque nacional de Kibira, una de las mayores reservas de vida
-              silvestre para los simios, ocupa parte de cuatro provincias,
-              incluyendo Muramvya. Este parque nacional se encuentra en las
-              cúspides de las hermosas montañas de la Divisoria Congo-Nilo,
-              cuyas alturas oscilan entre 1,550 y 2,660 metros. Está lleno de
-              hermosa vegetación, y es una fuente para los diversos ríos y
-              arroyos que proporcionan agua alrededor del país.
+              país, y que representa la mayoría de las exportaciones de
+              Burundi.<br /><br />El Parque nacional de Kibira, una de las
+              mayores reservas de vida silvestre para los simios, ocupa parte de
+              cuatro provincias, incluyendo Muramvya. Este parque nacional se
+              encuentra en las cúspides de las hermosas montañas de la Divisoria
+              Congo-Nilo, cuyas alturas oscilan entre 1,550 y 2,660 metros. Está
+              lleno de hermosa vegetación, y es una fuente para los diversos
+              ríos y arroyos que proporcionan agua alrededor del país.
             </p>
             <button class="places__button">
               <a
                 class="places__nft-link"
                 href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
-                >Compra esta obra como NFT</a
+              >
+                Compra esta obra como NFT</a
               >
             </button>
-          </div>
-          <div class="mexico">
-            <h3 class="places__title">
-              Ciudad de México,<br />
-              México
-            </h3>
+          </section>
+
+          <section class="country">
+            <h3 class="places__title">Ciudad de México, México</h3>
             <div class="places__website">
-              <h3 class="places__website-heading">Artista</h3>
-              <p class="places__website-artist">Daniel Villagómez Rivera</p>
+              <p class="places__website-heading">Artistas</p>
+              <p class="places__website-artist">Daniel Villagómez</p>
             </div>
             <img
-              class="places__image-alt"
-              src="/images/cdmx.jpg"
+              class="places__image"
+              src="./images/cdmx-2.jpg"
               alt="cdmx-image"
             />
             <p class="places__paragraph">
@@ -216,10 +216,8 @@
               Antropología hasta los barrios bohemios de Coyoacán y Roma, donde
               la creatividad florece. Con una arquitectura que refleja siglos de
               evolución y una gastronomía reconocida mundialmente, la ciudad es
-              un punto de encuentro para viajeros, artistas y emprendedores.
-            </p>
-            <p class="places__paragraph-2">
-              Además de su riqueza cultural, la Ciudad de México destaca por su
+              un punto de encuentro para viajeros, artistas y emprendedores.<br /><br />Además
+              de su riqueza cultural, la Ciudad de México destaca por su
               excelencia académica, siendo sede de algunas de las universidades
               más influyentes de Latinoamérica. La Universidad Nacional Autónoma
               de México (UNAM), fundada en 1551, sigue siendo un referente
@@ -232,11 +230,12 @@
               <a
                 class="places__nft-link"
                 href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
-                >Compra esta obra como NFT</a
+              >
+                Compra esta obra como NFT</a
               >
             </button>
-          </div>
-        </section>
+          </section>
+        </div>
       </main>
       <footer class="footer">© 2025. Daniel Villagómez</footer>
     </div>
