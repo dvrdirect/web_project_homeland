@@ -1,0 +1,13 @@
+.photo-grid {
+  display: grid;
+}
+.photo-grid__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  justify-content: center;
+  margin: auto;
+}
+.photo {
+  width: 352px;
+}

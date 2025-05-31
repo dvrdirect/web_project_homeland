@@ -2,7 +2,7 @@ body {
   background-color: #2e2e2e;
 }
 
-.container {
+/*.container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -73,3 +73,4 @@ body {
     width: auto;
   }
 }
+*/
