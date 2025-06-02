@@ -8,6 +8,30 @@
   justify-content: center;
   margin: auto;
 }
-/*.photo {
+.photo {
   width: 352px;
-}*/
+}
+@media (min-width: 1280px) {
+  .photo-grid {
+    padding-top: 110px;
+  }
+}
+@media (max-width: 320px) {
+  .photo-grid {
+    padding-top: 350px;
+  }
+  .photo {
+    width: auto;
+    object-fit: contain;
+  }
+}
+@media (max-width: 313px) {
+  .photo-grid {
+    padding-top: 450px;
+  }
+}
+@media (max-width: 302px) {
+  .photo-grid {
+    padding-top: 500px;
+  }
+}

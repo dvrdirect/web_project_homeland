@@ -4,7 +4,7 @@
   flex-direction: column;
   gap: 16px;
 }
-/*.country {
+.country {
   display: grid;
   grid-template-areas:
     "titulo artista"
@@ -15,7 +15,19 @@
 
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto auto 1fr;
-}*/
+}
+.country-alt {
+  display: grid;
+  grid-template-areas:
+    "titulo artista"
+    "imagen-alt parrafo"
+    ". parrafo"
+    "boton .";
+  gap: 16px;
+
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto 1fr;
+}
 
 .places__title {
   grid-area: titulo;
@@ -53,9 +65,9 @@
   aspect-ratio: 1/1;
 }
 .places__image-alt {
-  grid-area: places__image-alt;
-  height: 660px;
-  width: 660px;
+  grid-area: imagen-alt;
+  width: 100%;
+  aspect-ratio: 1/1;
 }
 .places__image:hover {
   background-color: rgba(0, 0, 0, 0.5);
@@ -108,7 +120,7 @@
   color: white;
   text-decoration: none;
 }
-/*.eeuu {
+.eeuu {
   display: grid;
   grid-template-columns: auto 484px;
   justify-content: center;
@@ -140,7 +152,7 @@
     "places__image-alt places__paragraph-2"
     "places__button places__paragraph-3";
   gap: 32px;
-}*/
+}
 
 @media (max-width: 768px) and (min-width: 544px) {
   .places__title {
@@ -148,7 +160,7 @@
     line-height: 46px;
   }
 }
-@media (max-width: 544px) {
+@media (max-width: 700px) {
   .photo-grid__container {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto auto auto;
@@ -158,6 +170,17 @@
       "titulo"
       "artista"
       "imagen"
+      "parrafo"
+      "boton";
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto auto;
+    justify-items: center;
+  }
+  .country-alt {
+    grid-template-areas:
+      "titulo"
+      "artista"
+      "imagen-alt"
       "parrafo"
       "boton";
     grid-template-columns: auto;
