@@ -1,0 +1,14 @@
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.page {
+}
+.content {
+}
+.caption {
+  color: #ffffff;
+  font-family: "inter";
+  font-weight: 800;
+}
