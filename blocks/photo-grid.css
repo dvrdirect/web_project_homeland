@@ -8,7 +8,7 @@
   justify-content: center;
   margin: auto;
 }
-.photo {
+.photo-grid__photo {
   width: 352px;
 }
 @media (min-width: 1280px) {
