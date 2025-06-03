@@ -120,39 +120,6 @@
   color: white;
   text-decoration: none;
 }
-.eeuu {
-  display: grid;
-  grid-template-columns: auto 484px;
-  justify-content: center;
-  grid-template-areas:
-    "places__title places__website"
-    "places__image places__paragraph"
-    "places__image places__paragraph-2"
-    "places__button .";
-  gap: 32px;
-}
-.burundi {
-  display: grid;
-  grid-template-columns: auto 484px;
-  justify-content: center;
-  grid-template-areas:
-    "places__title places__website"
-    "places__image places__paragraph"
-    "places__image places__paragraph-2"
-    "places__button places__paragraph-3";
-  gap: 32px;
-}
-.mexico {
-  display: grid;
-  grid-template-columns: auto 484px;
-  justify-content: center;
-  grid-template-areas:
-    "places__title places__website"
-    "places__image-alt places__paragraph"
-    "places__image-alt places__paragraph-2"
-    "places__button places__paragraph-3";
-  gap: 32px;
-}
 
 @media (max-width: 768px) and (min-width: 544px) {
   .places__title {
